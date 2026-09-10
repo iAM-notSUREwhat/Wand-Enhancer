@@ -8,9 +8,6 @@ on:
         type: boolean
         required: false
         default: false
-  pull_request:
-  push:
-    branches: [master, 'feature/rc_*']
 
 jobs:
   build:
